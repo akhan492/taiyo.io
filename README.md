@@ -38,6 +38,12 @@ If you aren’t satisfied with the build tool and configuration choices, you can
 Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
 You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+Screenshots
+![image](https://github.com/akhan492/taiyo.io/assets/87148816/c6864e57-0379-46c3-8cb3-58faad38ed0f)
+
+![image](https://github.com/akhan492/taiyo.io/assets/87148816/7c07e326-a6db-46eb-87a7-a7786530701e)
+![image](https://github.com/akhan492/taiyo.io/assets/87148816/b132ed86-1a4c-4681-b6c5-1e5c90c1ac06)
+
 
 ## Learn More
 
