@@ -16,8 +16,8 @@ const initialState: State = {
 export default function contactsReducer(state = initialState, action) {
     switch (action.type) {
         case ADD_CONTACT: {
-            const { first_name, last_name, mob } = action.payload;
-            if (first_name === "" || last_name === "" || mob === "") {
+            const { first_name, last_name } = action.payload;
+            if (first_name === "" || last_name === "") {
                 alert('Please fill in all required fields');
                 return state;
             }
@@ -55,8 +55,8 @@ export default function contactsReducer(state = initialState, action) {
         }
 
         case EDIT_CONTACT: {
-            const { id, first_name, last_name, mob } = action.payload;
-            if (first_name === "" || last_name === "" || mob === "") {
+            const { id, first_name, last_name } = action.payload;
+            if (first_name === "" || last_name === "") {
                 alert('Input fields cannot be left empty');
                 return state;
             }
