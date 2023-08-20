@@ -1,5 +1,4 @@
-import React from "react";
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import { Route, Routes } from "react-router-dom";
 import EditContact from "../componenets/EditContact";
 import Dashboard from "../componenets/Dashborad";
 import Contacts from "../componenets/Contact";

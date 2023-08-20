@@ -1,4 +1,3 @@
-import { combineReducers } from 'redux';
 import { ADD_CONTACT, EDIT_CONTACT, DELETE_CONTACT } from './actions';
 interface Contact {
     id: number;

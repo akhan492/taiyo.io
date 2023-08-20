@@ -2,11 +2,7 @@ import { useEffect, useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { Link } from "react-router-dom";
 import { removeContact } from "../Redux/actions";
-import React from "react";
 const Contacts = () => {
-  const [isOpen, setIsOpen] = useState(false);
-  const [singleContact, setSingleContact] = useState({});
-  let data = undefined;
   const AllContacts = useSelector((store: any) => store.contacts);
   const dispatch = useDispatch();
  

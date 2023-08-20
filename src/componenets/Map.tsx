@@ -5,10 +5,8 @@ import L from "leaflet";
 import {
   MapContainer,
   TileLayer,
-  useMap,
   Marker,
   Popup,
-  Circle,
 } from "react-leaflet";
 import "leaflet/dist/leaflet.css";
 // API endpoint for country-specific data
