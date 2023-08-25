@@ -43,9 +43,9 @@ const ChartPage: React.FC = () => {
   // console.log(Object.values(historicalData?.cases ?? []));
 
   return (
-    <div>
-      <h2 className="text-2xl text-white font-bold mb-4">
-        <button className="rounded-full shadow shadow-slate-700 bg-blue-600 p-3 text-2xl">
+    <div className=" sm:h-full">
+      <h2 className=" text-white font-bold mb-4">
+        <button className="rounded-full shadow shadow-slate-700 bg-blue-600 p-3 text-sm">
           Corona Cases Line Graph
         </button>
       </h2>

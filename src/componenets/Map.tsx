@@ -2,12 +2,7 @@ import React from "react";
 import MarkerIcon from "../icons/marker-icon.png";
 import { useQuery } from "react-query";
 import L from "leaflet";
-import {
-  MapContainer,
-  TileLayer,
-  Marker,
-  Popup,
-} from "react-leaflet";
+import { MapContainer, TileLayer, Marker, Popup } from "react-leaflet";
 import "leaflet/dist/leaflet.css";
 // API endpoint for country-specific data
 const countryDataURL = "https://disease.sh/v3/covid-19/countries";
@@ -25,10 +20,10 @@ const MapPage: React.FC = () => {
   // console.log(countriesData[0].countryInfo.lat, "countries data");
 
   return (
-    <div className="w-full pt-20 px-4 pb-8">
-      <h2 className="text-xl text-white font-bold mb-4">
+    <div className="sm:w-full">
+      <h2 className="text-white font-bold mb-4">
         <button
-          className="rounded-full shadow shadow-slate-700 bg-blue-600 p-3 text-xl"
+          className="rounded-full shadow shadow-slate-700 bg-blue-600 p-3 sm:text-sm md:text-2xl"
           style={{ marginTop: `${14}px` }}
         >
           Corona Cases World Map
@@ -39,8 +34,9 @@ const MapPage: React.FC = () => {
           <MapContainer
             center={[0, 0]}
             zoom={4}
-            style={{ height: "500px" }}
+            // style={{ height: "250px" }}
             scrollWheelZoom={true}
+            className="h-[250px] md:h-[500px] z-40"
           >
             <TileLayer
               attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'

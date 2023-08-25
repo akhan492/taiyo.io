@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 export default function Sidebar() {
   return (
     <div className="flex border-r-2">
-      <div className="flex pt-16 flex-col h-screen p-2 bg-white shadow-md w-60">
+      <div className="flex pt-16 flex-col h-screen p-2 bg-white shadow-md sm:max-w-fit md:w-60">
         <div className="space-y-3">
           <div className="flex items-center">
             <h2 className="text-xl text-center mt-4 font-bold">Dashboard</h2>

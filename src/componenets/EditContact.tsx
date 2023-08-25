@@ -35,7 +35,7 @@ function EditContact() {
   return (
     <div className="w-1/2 mx-auto my-4 pt-16">
       <h2 className="text-2xl text-white font-bold mb-4">
-        <button className="rounded-full shadow shadow-slate-700 bg-blue-600 p-3 text-2xl">
+        <button className="rounded-full shadow shadow-slate-700 bg-blue-600 p-3 sm:text-sm">
           Edit Contact
         </button>
       </h2>
